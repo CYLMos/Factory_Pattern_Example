@@ -14,4 +14,14 @@ public class SouthTypeDecorator extends Decorator{
 		return dumpling.getPrice();
 	}
 
+	@Override
+	public void mix() {
+		dumpling.mix();
+	}
+
+	@Override
+	public void shape() {
+		dumpling.shape();
+	}
+
 }

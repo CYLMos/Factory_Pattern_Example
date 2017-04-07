@@ -17,4 +17,16 @@ public class NormalDumpling extends Dumpling{
 		return super.getPrice();
 	}
 
+	@Override
+	public void mix() {
+		System.out.println("Normal mixing.....");
+		
+	}
+
+	@Override
+	public void shape() {
+		System.out.println("Normal shaping.....");
+		
+	}
+
 }

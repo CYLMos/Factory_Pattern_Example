@@ -9,11 +9,11 @@ public class NorthDumplingStore extends DumplingStore{
 		
 		if(type.equals("Normal Dumpling")){
 			dumpling = new NormalDumpling();
-			dumpling = new NorthTypeDecorator(dumpling);
+			//dumpling = new NorthTypeDecorator(dumpling);
 		}
 		else if(type.equals("Hot Dumpling")){
 			dumpling = new HotDumpling();
-			dumpling = new NorthTypeDecorator(dumpling);
+			//dumpling = new NorthTypeDecorator(dumpling);
 		}
 		
 		return dumpling;

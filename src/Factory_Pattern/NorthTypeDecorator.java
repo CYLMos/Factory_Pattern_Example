@@ -14,4 +14,14 @@ public class NorthTypeDecorator extends Decorator{
 		return 0.5 + dumpling.getPrice();
 	}
 
+	@Override
+	public void mix() {
+		dumpling.mix();
+	}
+
+	@Override
+	public void shape() {
+		dumpling.shape();
+	}
+
 }

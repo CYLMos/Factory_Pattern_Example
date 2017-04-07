@@ -17,4 +17,16 @@ public class HotDumpling extends Dumpling{
 		return super.getPrice();
 	}
 
+	@Override
+	public void mix() {
+		System.out.println("Hot mixing.....");
+		
+	}
+
+	@Override
+	public void shape() {
+		System.out.println("Hot shaping.....");
+		
+	}
+
 }

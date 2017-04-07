@@ -6,17 +6,9 @@ public abstract class Dumpling {
 	
 	private double price = 0.0;
 	
-	/*public void prepare(){
-		System.out.printf("My dumpling is %s, and price is %.2f \n", this.name, this.price);
-	}*/
-	
-    public void mix(){
-    	System.out.println("Mixing....");
-    }
-	
-	public void shape(){
-		System.out.println("Shaping....");
-	}
+    abstract public void mix();
+    
+    abstract public void shape();
 	
 	public void setName(String name){
 		this.name = name;
